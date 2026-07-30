@@ -51,13 +51,13 @@
         <div class="label">Membres du réseau AFLE</div>
       </div>
       <div class="admin-card">
-        <a href="{{ route('membre.evenements') }}" style="text-decoration:none; color:inherit;">
+        <a href="" style="text-decoration:none; color:inherit;">
           <div class="num">0</div>
           <div class="label">Événements à venir</div>
         </a>
       </div>
       <div class="admin-card">
-        <a href="{{ route('membre.actualites') }}" style="text-decoration:none; color:inherit;">
+        <a href="" style="text-decoration:none; color:inherit;">
           <div class="num">0</div>
           <div class="label">Actualités récentes</div>
         </a>

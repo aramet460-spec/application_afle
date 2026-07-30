@@ -37,5 +37,5 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
 });
 
 Route::middleware('auth')->prefix('espace-membre')->name('membre.')->group(function () {
-    Route::get('/membre/dashboard', [MembreController::class, 'dashboard'])->name('dashboard');
+    Route::get('/', [MembreController::class, 'dashboard'])->name('dashboard');
 });

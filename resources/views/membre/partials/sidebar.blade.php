@@ -9,18 +9,18 @@
     <a href="{{ route('membre.dashboard') }}" class="{{ request()->routeIs('membre.dashboard') ? 'active' : '' }}">
       <span class="ico">▦</span><span class="label">Tableau de bord</span>
     </a>
-    <a href="{{ route('membre.profil') }}" class="{{ request()->routeIs('membre.profil') ? 'active' : '' }}">
+    <a href="" class="{{ request()->routeIs('membre.profil') ? 'active' : '' }}">
       <span class="ico">◍</span><span class="label">Mon profil</span>
     </a>
 
     <span class="admin-nav-label">Communauté</span>
-    <a href="{{ route('membre.annuaire') }}" class="{{ request()->routeIs('membre.annuaire') ? 'active' : '' }}">
+    <a href="" class="{{ request()->routeIs('membre.annuaire') ? 'active' : '' }}">
       <span class="ico">☰</span><span class="label">Annuaire des membres</span>
     </a>
-    <a href="{{ route('membre.actualites') }}" class="{{ request()->routeIs('membre.actualites') ? 'active' : '' }}">
+    <a href="" class="{{ request()->routeIs('membre.actualites') ? 'active' : '' }}">
       <span class="ico">✎</span><span class="label">Actualités</span>
     </a>
-    <a href="{{ route('membre.evenements') }}" class="{{ request()->routeIs('membre.evenements') ? 'active' : '' }}">
+    <a href="" class="{{ request()->routeIs('membre.evenements') ? 'active' : '' }}">
       <span class="ico">◷</span><span class="label">Événements</span>
     </a>
   </nav>
