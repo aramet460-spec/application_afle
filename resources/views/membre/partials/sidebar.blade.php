@@ -17,11 +17,10 @@
     <a href="" class="{{ request()->routeIs('membre.annuaire') ? 'active' : '' }}">
       <span class="ico">☰</span><span class="label">Annuaire des membres</span>
     </a>
-    <a href="" class="{{ request()->routeIs('membre.actualites') ? 'active' : '' }}">
-      <span class="ico">✎</span><span class="label">Actualités</span>
-    </a>
-    <a href="" class="{{ request()->routeIs('membre.evenements') ? 'active' : '' }}">
-      <span class="ico">◷</span><span class="label">Événements</span>
+
+
+  <a href="{{ route('membre.actualites') }}" class="{{ request()->routeIs('membre.actualites') ? 'active' : '' }}">
+      <span class="ico">✎</span><span class="label">Actualités & Événements</span>
     </a>
   </nav>
 

@@ -5,16 +5,19 @@ namespace App\Http\Controllers\Membre;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Models\Actualite;
+
 
 class MembreController extends Controller
 {
-    public function dashboard()
-    {
-        $user = auth()->user();
-        $nombreMembres = User::where('role', 'membre')->where('statut', 'valide')->count();
+   public function dashboard()
+{
+    $user = auth()->user();
+    $nombreMembres = User::where('role', 'membre')->where('statut', 'valide')->count();
+    $nombreActualites = Actualite::count();
 
-        return view('membre.dashboard', compact('user', 'nombreMembres'));
-    }
+    return view('membre.dashboard', compact('user', 'nombreMembres', 'nombreActualites'));
+}
 
     public function profil()
     {
@@ -71,13 +74,13 @@ class MembreController extends Controller
         return view('membre.annuaire', compact('membres', 'pays', 'secteurs'));
     }
 
-    public function actualites()
-    {
-        // Le module Actualités n'est pas encore développé — page prête à recevoir les données
-        $actualites = [];
 
-        return view('membre.actualites', compact('actualites'));
-    }
+    public function actualites()
+{
+    $actualites = Actualite::latest()->get();
+
+    return view('membre.actualites', compact('actualites'));
+}
 
     public function evenements()
     {

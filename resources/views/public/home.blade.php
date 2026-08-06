@@ -94,7 +94,7 @@ Ensemble, nous révélons le potentiel des femmes, créons des opportunités et 
         </div>
       </article>
       <article class="card">
-        <div class="thumb"><img src="https://picsum.photos/seed/afle-news3/500/320" alt="Article actualité 3"></div>
+        <div class="thumb"><img src="{{ asset('images/invitation-image.jpeg') }}" alt="Article actualité 3"></div>
         <div class="card-body">
           <span class="eyebrow">Partenariat</span>
           <h3>AFLE signe un nouveau partenariat de financement</h3>

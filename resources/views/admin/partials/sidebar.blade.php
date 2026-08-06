@@ -14,6 +14,11 @@
     <a href="{{ route('admin.membres') }}" class="{{ request()->routeIs('admin.membres') ? 'active' : '' }}">
       <span class="ico">◍</span><span class="label">Liste des membres</span>
     </a>
+
+    <span class="admin-nav-label">Contenus</span>
+    <a href="{{ route('admin.actualites.index') }}" class="{{ request()->routeIs('admin.actualites.*') ? 'active' : '' }}">
+      <span class="ico">✎</span><span class="label">Actualités & Événements</span>
+    </a>
   </nav>
 
   <div class="admin-sidebar-bottom">
