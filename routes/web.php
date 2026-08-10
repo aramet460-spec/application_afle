@@ -45,5 +45,9 @@ Route::delete('/actualites/{actualite}', [ActualiteController::class, 'destroy']
 Route::middleware('auth')->prefix('espace-membre')->name('membre.')->group(function () {
     Route::get('/', [MembreController::class, 'dashboard'])->name('dashboard');
     Route::get('/actualites', [MembreController::class, 'actualites'])->name('actualites');
+    
+    Route::get('/financement', [DemandeFinancementController::class, 'index'])->name('financement.index');
+    Route::get('/financement/nouvelle', [DemandeFinancementController::class, 'create'])->name('financement.create');
+    Route::post('/financement', [DemandeFinancementController::class, 'store'])->name('financement.store');
 
 });

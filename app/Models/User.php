@@ -46,4 +46,11 @@ class User extends Authenticatable
     {
         return "{$this->prenom} {$this->nom}";
     }
+
+    public function demandesFinancements()
+{
+    return $this->hasMany(DemandeFinancement::class);
+}
+
+
 }

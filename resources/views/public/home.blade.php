@@ -24,11 +24,45 @@
         <a href="#apropos" class="btn btn-ghost">Découvrir l'AFLE</a>
       </div>
     </div>
-    <div class="welcome-card">
-      <div class="photo"><img src="https://picsum.photos/seed/afle-presidente/200/200" alt="Photo de la présidente de l'AFLE"></div>
-      <p>« Chaque femme qui entreprend porte avec elle l'avenir de toute une communauté. L'AFLE existe pour qu'aucune d'entre elles n'avance seule. »</p>
-      <div class="name">Nom de la Présidente</div>
-      <div class="role">Présidente, AFLE</div>
+  </div>
+</section>
+
+<!-- PRÉSENTATION DE LA DIRECTRICE -->
+<section class="directrice-section" id="directrice">
+  <div class="wrap">
+    <div class="directrice-grid">
+      <div class="directrice-image">
+        <div class="directrice-photo">
+          <img src="{{ asset('images/directrice.jpeg') }}" alt="Directrice de l'AFLE">
+          <div class="photo-frame"></div>
+        </div>
+        <div class="directrice-badge">
+          <span class="badge-title">Présidente</span>
+          <span class="badge-name">Mme Madelaine Bangoura</span>
+        </div>
+      </div>
+      <div class="directrice-content">
+        <span class="eyebrow">Notre Présidente</span>
+        <h2>Une visionnaire au service des femmes entrepreneures</h2>
+        <div class="directrice-bio">
+          <p class="bio-quote">
+            « Chaque femme qui entreprend porte avec elle l'avenir de toute une communauté. 
+            L'AFLE existe pour qu'aucune d'entre elles n'avance seule. »
+          </p>
+          <p>
+            Mme Madelaine Bangoura est la présidente fondatrice de l'AFLE. Avec plus de 15 ans 
+            d'expérience dans le leadership et l'entrepreneuriat féminin, elle a consacré sa carrière 
+            à l'autonomisation économique des femmes en Afrique et dans la diaspora.
+          </p>
+          <p>
+            Sous sa direction, l'AFLE est devenue un réseau influent de plus de 500 membres à travers 
+            18 pays, offrant des opportunités de formation, de financement et de visibilité aux 
+            femmes entrepreneures. Son engagement pour l'égalité des chances et le développement 
+            durable a été reconnu à plusieurs reprises sur le plan international.
+          </p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -52,13 +86,13 @@
     <div>
       <span class="eyebrow">À propos de l'AFLE</span>
       <h2 style="margin:12px 0 18px; font-size:2rem;">Une communauté au service de l'autonomisation économique des femmes</h2>
-      <p>AFLE – Alliance des Femmes Leaders et Entrepreneurs est une organisation internationale qui œuvre pour le développement du leadership féminin, l’entrepreneuriat et l’autonomisation économique des femmes.
+      <p>AFLE – Alliance des Femmes Leaders et Entrepreneurs est une organisation internationale qui œuvre pour le développement du leadership féminin, l'entrepreneuriat et l'autonomisation économique des femmes.</p>
 
-À travers un réseau dynamique de dirigeantes, entrepreneures, professionnelles et porteuses de projets, AFLE crée des opportunités de collaboration, de formation, de financement et de visibilité afin d’accélérer la réussite de ses membres.
+      <p>À travers un réseau dynamique de dirigeantes, entrepreneures, professionnelles et porteuses de projets, AFLE crée des opportunités de collaboration, de formation, de financement et de visibilité afin d'accélérer la réussite de ses membres.</p>
 
-Notre ambition est de bâtir une communauté influente où les compétences, l’innovation et la solidarité deviennent des leviers de croissance durable. Grâce à cette plateforme, chaque membre accède à un écosystème complet favorisant le réseautage, les opportunités d’affaires, le partage d’expériences et le développement personnel et professionnel.
+      <p>Notre ambition est de bâtir une communauté influente où les compétences, l'innovation et la solidarité deviennent des leviers de croissance durable. Grâce à cette plateforme, chaque membre accède à un écosystème complet favorisant le réseautage, les opportunités d'affaires, le partage d'expériences et le développement personnel et professionnel.</p>
 
-Ensemble, nous révélons le potentiel des femmes, créons des opportunités et construisons un avenir plus inclusif, innovant et prospère.
+      <p>Ensemble, nous révélons le potentiel des femmes, créons des opportunités et construisons un avenir plus inclusif, innovant et prospère.</p>
       <div class="btn-row" style="margin-top:26px;">
         <a href="#" class="btn btn-primary">Notre bureau exécutif</a>
       </div>
@@ -81,7 +115,7 @@ Ensemble, nous révélons le potentiel des femmes, créons des opportunités et 
         <div class="thumb"><img src="{{ asset('images/formation-ballon.jpeg') }}" alt="Article actualité 1"></div>
         <div class="card-body">
           <span class="eyebrow">Témoignage</span>
-          <h3>Des formations gratuites en decoration organises pour les membres de l'AFLE</h3>
+          <h3>Des formations gratuites en décoration organisées pour les membres de l'AFLE</h3>
           <p>Découvrez comment l'accompagnement AFLE a transformé une petite activité en entreprise structurée.</p>
         </div>
       </article>
