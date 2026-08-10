@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\AdminController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Membre\MembreController;
 use App\Http\Controllers\Admin\ActualiteController;
+use App\Http\Controllers\Membre\DemandeFinancementController;
 
 
 //Route::get('/', function () {
