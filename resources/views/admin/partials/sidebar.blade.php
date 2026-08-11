@@ -19,6 +19,11 @@
     <a href="{{ route('admin.actualites.index') }}" class="{{ request()->routeIs('admin.actualites.*') ? 'active' : '' }}">
       <span class="ico">✎</span><span class="label">Actualités & Événements</span>
     </a>
+    
+    <span class="admin-nav-label">Financement</span>
+<a href="{{ route('admin.financement.index') }}" class="{{ request()->routeIs('admin.financement.*') ? 'active' : '' }}">
+  <span class="ico">💰</span><span class="label">Demandes de financement</span>
+</a>
   </nav>
 
   <div class="admin-sidebar-bottom">

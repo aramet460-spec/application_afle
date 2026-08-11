@@ -9,7 +9,7 @@
     <a href="{{ route('membre.dashboard') }}" class="{{ request()->routeIs('membre.dashboard') ? 'active' : '' }}">
       <span class="ico">▦</span><span class="label">Tableau de bord</span>
     </a>
-    <a href="" class="{{ request()->routeIs('membre.profil') ? 'active' : '' }}">
+    <a href="{{ route('membre.profil') }}" class="{{ request()->routeIs('membre.profil') ? 'active' : '' }}">
       <span class="ico">◍</span><span class="label">Mon profil</span>
     </a>
 
